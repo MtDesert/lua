@@ -1,0 +1,8 @@
+This is Lua 5.3.5, released on 26 Jun 2018.
+
+For installation instructions, license details, and
+further information about Lua, see doc/readme.html.
+
+MtDesert:
+When I extract package of Lua 5.3.5, I moved "lua.c" & "luac.c" from "./src" to ".", And add CMakeLists.txt for linux & NDK compile.
+Depend on CompileScripts, see https://github.com/MtDesert/CompileScripts for more details.
